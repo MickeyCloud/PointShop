@@ -5,7 +5,7 @@ POINTSHOP.Config = {}
 -- Just set each line to true or false, or a desired value.
 -- Edit shop items in their respective files in the items folder.
 
-POINTSHOP.Config.ShopKey = "F4" -- F1, F2, F3 or F4. Default is F4. Set to "None" to disable.
+POINTSHOP.Config.ShopKey = "F3" -- F1, F2, F3 or F4. Default is F4. Set to "None" to disable.
 
 POINTSHOP.Config.ShopNotify = true -- Tell the player how many points they have and how to open the shop when they first spawn?
 
@@ -14,7 +14,7 @@ POINTSHOP.Config.DisplayPoints = true -- Shows players how many points they have
 POINTSHOP.Config.AlwaysDrawHats = true -- Should hats always be drawn? Override in your gamemode.
 
 POINTSHOP.Config.PointsTimer = true -- Enable the timer for giving a player points for playing for a certain amount of time.
-POINTSHOP.Config.PointsTimerDelay = 30 -- Delay in minutes between giving points.
+POINTSHOP.Config.PointsTimerDelay = 5 -- Delay in minutes between giving points.
 POINTSHOP.Config.PointsTimerAmount = 20 -- Amount to give after the above delay.
 
 POINTSHOP.Config.OnNPCKilled = true -- Give Points when an NPC is killed by a player?
