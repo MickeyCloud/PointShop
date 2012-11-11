@@ -15,7 +15,7 @@ POINTSHOP.Config.AlwaysDrawHats = true -- Should hats always be drawn? Override 
 
 POINTSHOP.Config.PointsTimer = true -- Enable the timer for giving a player points for playing for a certain amount of time.
 POINTSHOP.Config.PointsTimerDelay = 5 -- Delay in minutes between giving points.
-POINTSHOP.Config.PointsTimerAmount = 10 -- Amount to give after the above delay.
+POINTSHOP.Config.PointsTimerAmount = 20 -- Amount to give after the above delay.
 
 POINTSHOP.Config.OnNPCKilled = true -- Give Points when an NPC is killed by a player?
 POINTSHOP.Config.OnNPCKilledAmount = 10 -- Amount to give for killing an NPC.
@@ -34,7 +34,7 @@ POINTSHOP.Config.SellCost = function(cost) -- Tells the shop how much to give a 
 	-- return math.Round(cost * 0.33) -- One thirds.
 end
 
-POINTSHOP.Config.SellersEnabled = false -- Should NPC sellers be enabled?
+POINTSHOP.Config.SellersEnabled = true -- Should NPC sellers be enabled?
 
 POINTSHOP.Config.Sellers = {
 	gm_flatgrass = {
